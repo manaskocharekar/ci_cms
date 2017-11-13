@@ -19,7 +19,7 @@ function e($string){
 function get_menu ($array, $child = FALSE)
 {
 	$str = '';
-	
+	 
 	if (count($array)) {
 		$str .= $child == FALSE ? '<ul class="nav">'. PHP_EOL : '<ul class = "dropdown-menu">'. PHP_EOL;
 		
