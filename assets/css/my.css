@@ -1,0 +1,16 @@
+body {
+  background-color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-inverse {
+  background-color: #fb8c00;
+  border-color: #080808;
+  border-radius: 3%;
+  height: 80px;
+}
+.navbar-inverse .navbar-brand {
+  font-size: 54px;
+  color: black;
+  margin: 5px;
+  font-family: monteserrat;
+}

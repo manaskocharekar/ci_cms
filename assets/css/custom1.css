@@ -1,0 +1,33 @@
+body {
+    background-color: #f0f4c3;
+    font-family: 'Pangolin', cursive;
+    padding: 10px;
+}
+
+.navbar-inverse {
+    background-color: #f0f4c3;
+    border: none;
+    border-radius: 3%;
+    height: 80px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 54px;
+    color: #0d47a1;
+    margin: 5px;
+    font-family: monteserrat;
+}
+
+.navbar-inverse .navbar-brand :hover {
+    color: #000000;
+}
+
+.panel .panel-manas {
+    border: solid #004d40 2px;
+}
+
+.panel head {
+    background-color: #0d47a1;
+}
