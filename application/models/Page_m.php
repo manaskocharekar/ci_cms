@@ -16,6 +16,11 @@ class Page_m extends MY_Model{
             'label' => 'Title', 
             'rules' => 'trim|required|max_length[100]'
             ),
+        'pg_template' => array(
+            'field' => 'pg_template',
+            'label' => 'Title', 
+            'rules' => 'trim|required'
+            ),
         'pg_slug' => array(
             'field' => 'pg_slug',
             'label' => 'Slug', 
@@ -47,6 +52,8 @@ class Page_m extends MY_Model{
         $page->pg_author = '';
         $page->pg_created_date = '';
         $page->pg_active = '';
+        $page->pg_template = 'page';
+        
         return $page;
     }
 

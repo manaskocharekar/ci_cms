@@ -22,6 +22,10 @@
             <td><?= form_input('pg_slug', set_value('pg_slug', $Page->pg_slug)); ?></td>
         </tr>
         <tr>
+            <td>Template</td>
+            <td><?= form_dropdown('pg_template', array("page" => "Page", "news archive" => "News Archive", "homepage" => "Homepage"), $this->input->post('pg_template') ? $this->input->post('pg_template') : $Page->pg_template); ?></td>
+        </tr>
+        <tr>
             <td>Content</td>
             <td><?= form_textarea('pg_content', set_value('pg_content', $Page->pg_content), 'id = mytextarea', 'cols=5000'); ?></td>
         </tr>
