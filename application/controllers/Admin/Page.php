@@ -45,7 +45,7 @@ class Page extends Admin_Controller{
         $rules = $this->Page_m->rules;
         $this->form_validation->set_rules($rules);
         if($this->form_validation->run() == TRUE){
-            $data = $this->Page_m->array_from_post(array('pg_id', 'pg_title','pg_slug', 'pg_content', 'pg_template', 'pg_parent_id'));
+            $data = $this->Page_m->array_from_post(array('pg_id', 'pg_title','pg_slug', 'pg_content', 'pg_parent_id'));
             //var_dump($data);
             $this->Page_m->put($data, $id);
             redirect('Admin/Page/');

@@ -12,11 +12,4 @@ class Frontend_Controller extends MY_Controller{
         
      }
 }
-
-
-
-
-
-
-
 ?>
