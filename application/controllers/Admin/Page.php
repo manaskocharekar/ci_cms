@@ -1,4 +1,4 @@
-        <?php 
+<?php 
 
 
 class Page extends Admin_Controller{
@@ -55,16 +55,11 @@ class Page extends Admin_Controller{
         $this->load->view('admin/_layout_main', $this->data);
     }
 
-
     public function delete($id){
         $this->Page_m->delete($id);
         redirect('Admin/Page/');
     }
 
-    
-
-
-  
     public function _unique_slug($str){
         $this->db->where('pg_slug', $this->input->post('pg_slug'));
         $pg_id = $this->uri->segment(4);
