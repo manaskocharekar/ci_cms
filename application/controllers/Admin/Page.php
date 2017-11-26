@@ -75,8 +75,4 @@ class Page extends Admin_Controller{
     
 }
 
-
-
-
-
 ?>
